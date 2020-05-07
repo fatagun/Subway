@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="$(JetbrainsNotNullVersion)" />
+    <PackageReference Include="Newtonsoft.Json" Version="$(NewstonJsonVersion)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cnd.Core.Serialization.Abstractions\Cnd.Core.Serialization.Abstractions.csproj" />
+    <ProjectReference Include="..\Cnd.Core.ServiceLifetime\Cnd.Core.ServiceLifetime.csproj" />
+  </ItemGroup>
+
+</Project>

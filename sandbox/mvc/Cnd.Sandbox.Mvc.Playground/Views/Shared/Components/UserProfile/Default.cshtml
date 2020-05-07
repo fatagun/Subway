@@ -1,0 +1,14 @@
+@model Cnd.Sandbox.Mvc.Playground.Models.Person
+
+<div>
+    @if(Model == null)
+    {
+        <p>There is no user data.</p>
+    }
+    else
+    {
+        <p>Hello @Model.Name</p>
+        <p>You are : @Model.Age yearsold</p>
+        <p>You are a : @Model.Gender</p>
+    }
+</div>

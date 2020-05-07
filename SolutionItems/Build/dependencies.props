@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+    <MicrosoftAbstractionsVersion>3.1.3</MicrosoftAbstractionsVersion>
+    <MicrosoftExtensionsVersion>3.1.3</MicrosoftExtensionsVersion>
+    <NewstonJsonVersion>12.0.3</NewstonJsonVersion>
+    <JetbrainsNotNullVersion>2020.1.0</JetbrainsNotNullVersion>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+<div>
+    @await Component.InvokeAsync("UserProfile")
+</div>
+
+<div>
+    <p>
+        <a id="edit" class="button btn" href="/Home/Edit">Edit</a>
+        <a id="edit" class="button btn" href="/Home/EditWithEvents">Edit with Events</a>
+        <button id="collect-btn" type="button">Populate redis</button>
+    </p>
+</div>
+<script>
+    const populateUrl = "/home/populate";
+    document.getElementById("collect-btn").addEventListener("click", function () { fetch(populateUrl); });
+</script>
